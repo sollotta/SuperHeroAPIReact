@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-family: 'Avengers', 'Marvel';
+    
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  /* background-image: url('https://webbkurs.ei.hv.se/~lool0009/ht2020/superhero.jpg'); */
+}
+/* .BackIMG {
+  background-image: url('https://webbkurs.ei.hv.se/~lool0009/ht2020/superhero.jpg');
+} */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  
+}
+
+h1 {
+  font-family: 'Marvel';
+  }
+ h3, h4, p, .Mychoice {
+    font-family: 'Cantarell';
+  }
+p {
+  font-weight: 600;
+  font-size: 1.2rem ;
+}
+
+.MychoiceColor {
+  color:black;
+}
+
+@font-face {
+  font-family: 'Avengers';
+  src: local('Avengers'), url(./Fonts/AvengeroRegular-zvgl.ttf) format('truetype');
+
+}
+@font-face {
+  font-family: 'Marvel';
+  src: local('Marvel'), url(./Fonts/Captainmarvel-anm9.ttf) format('truetype');
+}
