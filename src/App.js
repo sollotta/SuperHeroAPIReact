@@ -30,7 +30,7 @@ function App() {
 
     
   const getCharacter = async (characterName) => {
-  const API_Key = '10158598617655435' // Här är min apinyckel vilket gör det lätt om man skulle vilja lägga ut utan att visa nyckeln. 
+  const API_Key = 'your API key' // Här är min apinyckel vilket gör det lätt om man skulle vilja lägga ut utan att visa nyckeln. 
    setIsLoading(true); //startar sökningen
     try  {
     const response = await fetch(`https://webbkurs.ei.hv.se/~lool0009/ht2020/SuperHero/med_PHP/getfile.php?secret_key=9865341565&file=https://www.superheroapi.com/api/${API_Key}/search/${characterName}`);

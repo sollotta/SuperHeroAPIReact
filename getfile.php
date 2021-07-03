@@ -1,5 +1,5 @@
 <?php
-$secret_key = "9865341565";
+$secret_key = "your secret key";
 if (isset($_REQUEST['file'])){
     $content =file_get_contents($_REQUEST['file']);
     } else {
